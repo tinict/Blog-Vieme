@@ -110,6 +110,7 @@
 
 .box-bottom .btn-tagname{
     padding: 2px 6px;
+    border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px 0;
 }
