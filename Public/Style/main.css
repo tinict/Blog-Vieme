@@ -69,6 +69,21 @@
 .content {
     padding: 16px 32px;
     width: 100%;
+    display: flex;
+}
+
+.content__left {
+    width: 90%;
+    padding-right: 64px;
+}
+
+.content__right {
+    width: 50%;
+    padding: 12px;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.8;
 }
 
 .box {
@@ -77,6 +92,16 @@
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border-radius: 15px;
     padding: 24px;
+}
+
+.content__right__project .container {
+    margin: 14px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__right__project .container .box__tagname {
+    margin: 0 8px 8px 0;
 }
 
 /* css avatar */
@@ -172,7 +197,7 @@
     flex-direction: row;
     align-items: center;
     padding: 16px 32px;
-    width: 100%;
+    width: 35%;
 }
 
 .Search__blog {
@@ -197,5 +222,10 @@
     color: #ccc;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.topic {
+    display: none;
+}
+
 
 

@@ -8,4 +8,44 @@
     .Search {
         padding: 16px;
     }
+    .content__left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .content__right {
+        display: none;
+    }
+    .Search {
+        width: 100%;
+    }
+
+    /* css topic */
+    .topic {
+        display: block;
+        width: 100%;
+        margin: 8px 16px;
+    }
+
+    .topic .container {
+        display: flex;
+    }
+
+    .topic__header {
+        background-color: #F2F2F2;
+        height: 28px;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+
+    .topic__name {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        color: #333;
+    }
 }
