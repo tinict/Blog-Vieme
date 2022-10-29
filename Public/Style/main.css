@@ -224,4 +224,38 @@
 }
 
 
+/* CSS Navbar */
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.Navbar__left {
+    width: 100%;
+}
+
+.Navbar__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnNavbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btnNavbar .fa-bars {
+    font-size: 18px;
+}
+
 

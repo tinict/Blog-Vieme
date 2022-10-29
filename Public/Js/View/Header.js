@@ -1,13 +1,13 @@
 //Thanh navbar
 
-const Header = () => {
+export const Header = () => {
     return `
         <section class="navbar">
                 <div class="navbar__left">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="navbar__center">
-                    <h1>Vieme Blog</h1>
+                    <h1>ViemeBlog</h1>
                 </div>
                 <div class="navbar__right">
                     <i class="fa-solid fa-bell"></i>
@@ -18,5 +18,3 @@ const Header = () => {
         </section> 
     `
 }
-
-export default Header()

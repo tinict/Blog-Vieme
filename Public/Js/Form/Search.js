@@ -1,6 +1,6 @@
 //Search Form
 
-const Search = () => {
+export const Search = () => {
     return `
         <section class="Search">
             <div class="Search__blog">
@@ -11,4 +11,3 @@ const Search = () => {
     `
 }
 
-export default Search()
