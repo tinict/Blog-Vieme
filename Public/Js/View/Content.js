@@ -1,6 +1,15 @@
 export const Contet_Left = () => {
     return `
         <div class="content__left">
+            <nav class="Content__header">
+                <span class="HomePage">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </span>
+                <ul class="breadcrumb">
+    
+                </ul>
+            </nav>
             <div class="container">
                 <div class="box">
                     <div class="box__header">
