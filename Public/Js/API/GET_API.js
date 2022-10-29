@@ -1,7 +1,8 @@
+import { Blog } from "./ClassBlog.js";
 
 const API_GitHub_Repos = 'https://api.github.com/users/tinict/repos';
 
-const Response = [];
+export var Post = [];
 
 fetch (API_GitHub_Repos)
     .then(
@@ -12,9 +13,12 @@ fetch (API_GitHub_Repos)
     .then(
         (response) => {
             response.forEach(i => {
-                Response.push(i);
+               var setPost = new Blog(i.id, 'Tin.ict', i.name, i.description, i.html_url);
+            //console.log(i);
+               Post.push(setPost);
             });
         }
     )
-
-console.log(Response)
+Post.forEach((i) => {
+    console.log('Thanh cong')
+});

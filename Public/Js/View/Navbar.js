@@ -1,4 +1,4 @@
-import { Search } from "../Form/Search.js"
+import { Search } from "../Components/Search.js"
 
 
 export const SubNav = () => {
