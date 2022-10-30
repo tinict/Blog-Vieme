@@ -1,3 +1,4 @@
+import { DisplayBlog̣, Message } from "../Dev/showBlog.js";
 const API_GitHub_Repos = 'https://api.github.com/users/tinict/repos';
 
 export const PostBlog = () => {
@@ -40,6 +41,9 @@ export const PostBlog = () => {
             });
             var html = htmls.join('');
             document.querySelector('.content__left .container').innerHTML = html;
+            Message('fa-ellipsis');
+            Message('fa-bookmark');
+            DisplayBlog̣('box__title');
         }
     )
 }

@@ -1,6 +1,7 @@
 import { PostBlog } from "../Components/BoxBlog.js";
+import { Error404 } from "../Template/Error404.js";
 
-export const Contet_Left = () => {
+export const Content_Left = () => {
     return `
         <div class="content__left">
             <nav class="Content__header">
@@ -19,7 +20,7 @@ export const Contet_Left = () => {
     `
 };
 
-export const Contet_Right = () => {
+export const Content_Right = () => {
     return `
         <div class="content__right">
             <div class="content__right__project">
@@ -37,12 +38,42 @@ export const Contet_Right = () => {
     `
 };
 
+export const Content_Blog = () => {
+    return `
+        <div class="content__blog">
+            ${Error404()}
+        </div>
+    `
+}
+
 
 export const Content = () => {
     return `
         <section class="content">
-            ${Contet_Left()}
-            ${Contet_Right()}
+            ${Content_Left()}
+            ${Content_Right()}
+            ${Content_Blog()}
         </section>
     `
 };
+
+const RenderTest = (str) => {
+    return `
+        <section class="content">
+            ${str}
+        </section>
+    `
+}
+
+export const setDisplayContent = (set) => {
+    if (set == 0) {
+        const ElementContentLeft = document.querySelector('.content__left');
+        const ElementContentRight = document.querySelector('.content__right');
+        const ElementContentBlog = document.querySelector('.content__blog');
+        const ElementContent = document.querySelector('.content');
+        ElementContentLeft.style.display = 'none';
+        ElementContentRight.style.display = 'none';
+        ElementContentBlog.style.display = 'block';
+        ElementContent.classList.add('error404');
+    }
+}

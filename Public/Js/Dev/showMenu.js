@@ -1,7 +1,6 @@
 import { Header } from "../View/Header.js";
 import { SubNav } from "../View/SubNav.js";
 import { PostBlog } from "../Components/BoxBlog.js";
-import { Contet_Left } from "../View/Content.js";
 
 //Xử lý giao diện nút thanh Header show menu
 Header();
@@ -28,7 +27,6 @@ ElementbtnSubNav.onclick = () => {
 
 //Xử lý giao diện menu box blog
 PostBlog();
-Contet_Left();
 
 export const Logic = () => {
     console.log('Hello')
