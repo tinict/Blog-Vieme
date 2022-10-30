@@ -247,7 +247,7 @@
 
 /* CSS Navbar */
 
-.Navbar {
+.SubNavbar {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -256,17 +256,17 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
 
-.Navbar__left {
+.SubNavbar__left {
     width: 100%;
 }
 
-.Navbar__right {
+.SubNavbar__right {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.btnNavbar {
+.btnSubNavbar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +277,7 @@
     background-color: #fff;
 }
 
-.btnNavbar .fa-bars {
+.btnSubNavbar .fa-bars {
     font-size: 18px;
 }
 
