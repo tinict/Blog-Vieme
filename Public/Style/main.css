@@ -40,14 +40,32 @@
     align-items: center;
 }
 
+.navbar__left .navbar_left_icon {
+    text-decoration: none;
+}
+
 .navbar__left .fa-bars{
     font-size: 18px;
     padding: 4px;
 }
 
+.navbar__left .fa-arrow-left {
+    font-size: 18px;
+    padding: 4px;
+    display: none;
+    color: #00bfa5;
+}
+
 .navbar__right .fa-bell{
     font-size: 18px;
     padding: 4px;
+    color: #00bfa5;
+}
+
+.navbar__right .fa-ellipsis-vertical {
+    font-size: 18px;
+    padding: 4px;
+    display: none;
     color: #00bfa5;
 }
 

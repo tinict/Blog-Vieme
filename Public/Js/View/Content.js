@@ -74,6 +74,14 @@ export const setDisplayContent = (set) => {
         const ElementSubNavBar = document.querySelector('.SubNavbar');
         const ElementNavLeft = document.querySelector('.navbar__left');
         const ElementNavbarRightAvatar = document.querySelector('.navbar__right__avatar');
+        const ElementNavLefArrowLeft = document.querySelector('.navbar__left .fa-arrow-left');
+        const ElementNavBar = document.querySelector('.navbar__left .fa-bars');
+        const ElementNavRightBell = document.querySelector('.navbar__right .fa-bell');
+        const ElementNavRightEllipsis = document.querySelector('.navbar__right .fa-ellipsis-vertical');
+        ElementNavRightEllipsis.style.display = 'block';
+        ElementNavRightBell.style.display = 'none';
+        ElementNavBar.style.display = 'none';
+        ElementNavLefArrowLeft.style.display = 'block';
         ElementNavbarRightAvatar.style.display = 'none';
         ElementNavLeft.style.display = 'block';
         ElementSubNavBar.style.display = 'none';
