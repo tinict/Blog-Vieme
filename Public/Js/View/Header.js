@@ -7,7 +7,7 @@ export const Header = () => {
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="navbar__center">
-                    <h1>ViemeBlog</h1>
+                    <h1 class="navbar__center__title">ViemeBlog</h1>
                 </div>
                 <div class="navbar__right">
                     <i class="fa-solid fa-bell"></i>

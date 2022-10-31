@@ -49,6 +49,7 @@
     font-size: 18px;
     padding: 4px;
     margin-right: 16px;
+    color: #00bfa5;
 }
 
 .navbar__right__avatar img {
@@ -230,8 +231,13 @@
     padding: 8px 16px;
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
+    border: 2px solid #c9e8e4;
+}
+
+.Search__blog:hover{
+    border: 2px solid #03a9f4;
 }
 
 .Search__blog .fa-magnifying-glass {
@@ -279,6 +285,11 @@
     border: 1px solid #ccc;
     cursor: pointer;
     background-color: #fff;
+    border: 2px solid #c9e8e4;
+}
+
+.btnSubNavbar:hover {
+    border: 2px solid #03a9f4;
 }
 
 .btnSubNavbar .fa-bars {
@@ -296,6 +307,11 @@
     text-decoration: none;
     padding-left: 4px;
     font-weight: 600;
+    color: #1a33c1;
+}
+
+.HomePage .fa-house {
+    color: #1a33c1;
 }
 
 .breadcrumb {
