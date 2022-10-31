@@ -49,11 +49,13 @@ export const Content_Blog = () => {
 
 export const Content = () => {
     return `
-        <section class="content">
-            ${Content_Left()}
-            ${Content_Right()}
-            ${Content_Blog()}
-        </section>
+        <div class="scroll-sticky">
+            <section class="content">
+                ${Content_Left()}
+                ${Content_Right()}
+                ${Content_Blog()}
+            </section>
+        </div>
     `
 };
 
