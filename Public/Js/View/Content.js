@@ -71,6 +71,12 @@ export const setDisplayContent = (set) => {
         const ElementContentRight = document.querySelector('.content__right');
         const ElementContentBlog = document.querySelector('.content__blog');
         const ElementContent = document.querySelector('.content');
+        const ElementSubNavBar = document.querySelector('.SubNavbar');
+        const ElementNavLeft = document.querySelector('.navbar__left');
+        const ElementNavbarRightAvatar = document.querySelector('.navbar__right__avatar');
+        ElementNavbarRightAvatar.style.display = 'none';
+        ElementNavLeft.style.display = 'block';
+        ElementSubNavBar.style.display = 'none';
         ElementContentLeft.style.display = 'none';
         ElementContentRight.style.display = 'none';
         ElementContentBlog.style.display = 'block';

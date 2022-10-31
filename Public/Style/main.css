@@ -48,7 +48,6 @@
 .navbar__right .fa-bell{
     font-size: 18px;
     padding: 4px;
-    margin-right: 16px;
     color: #00bfa5;
 }
 
@@ -64,6 +63,7 @@
     height: 30px;
     border-radius: 15px;
     border: 2px solid rgb(107, 103, 228);
+    margin-left: 16px;
 }
 
 .navbar__dropdown__user {
