@@ -2,12 +2,11 @@
 
 export const Search = () => {
     return `
-        <section class="Search">
+        <div class="Search">
             <div class="Search__blog">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input class="Search__box" type="search" placeholder="Search ...">  
+                <input class="Search__box" type="search" placeholder="Tìm kiếm ...">  
             </div>
-        </section>
+        </div>
     `
-}
-
+} 
